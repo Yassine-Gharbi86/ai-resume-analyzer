@@ -114,7 +114,7 @@ export default function JobMatchResult({ match, jobTitle, company }: { match: Ma
 
       {/* Strengths for role */}
       <div style={S.section}>
-        <div style={S.sectionHead}>Why You're a Fit</div>
+        <div style={S.sectionHead}>Why You&apos;re a Fit</div>
         <div style={{ ...S.sectionBody, display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {match.strengths_for_role.map((s, i) => (
             <div key={i} style={{ display: 'flex', gap: '10px', fontSize: '13px', color: '#cbd5e1' }}>
